@@ -1,0 +1,19 @@
+# Tarea 4
+
+## Descripción:
+
+Esta tarea consiste en hacer una llamada a la API de NewsAPI y mostrar los resultados en pantalla
+
+## Librerías
+
+- Express
+- Axios
+- Nodemon
+- Handlebars
+- Dotenv
+
+Intenté usar Tailwind pero se me complicó con Handlebars y por falta de tiempo utilicé Bootstrap
+
+## Comandos para correr el proyecto
+
+´´´npm run dev´´´
