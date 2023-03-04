@@ -1,0 +1,36 @@
+<div class='container'>
+
+  <div class='row justify-content-center align-items-center h-100'>
+
+    <div>
+      <h1>Bienvenido a News App</h1>
+      <h5>Comienza escribiendo para buscar alguna noticia</h5>
+
+      <form action='' method='get' class='input-group mb-3'>
+
+        <input
+          type='text'
+          class='form-control'
+          placeholder='Buscar noticia'
+          aria-label='Buscar noticia'
+          aria-describedby='button-addon2'
+          id='search'
+        />
+        <button
+          class='btn btn-outline-secondary'
+          type='submit'
+          id='button-addon2'
+        >Search</button>
+
+      </form>
+    </div>
+
+  </div>
+</div>
+
+<script>
+  const form = document.querySelector('form'); const input =
+  document.querySelector('#search'); form.addEventListener('submit',
+  (e) => { e.preventDefault(); const search = input.value;
+  window.location.href = `/search?query=${search}`; });
+</script>
